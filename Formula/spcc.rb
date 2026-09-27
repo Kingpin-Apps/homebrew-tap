@@ -9,6 +9,7 @@ class Spcc < Formula
 
   def install
     bin.install "spcc"
+    generate_completions_from_executable(bin/"spcc", "--generate-completion-script")
   end
 
   test do
