@@ -1,8 +1,8 @@
 class Spcc < Formula
   desc "Run a swift-package-index-style compatibility matrix locally"
   homepage "https://github.com/Kingpin-Apps/swift-package-compat-check"
-  url "https://github.com/Kingpin-Apps/swift-package-compat-check/releases/download/0.7.0/spcc-0.7.0-macos-universal.tar.gz"
-  sha256 "273ad1aa01c8e32a61616854293ebca673b1f476a651fd279882cd7c2ad3ff6e"
+  url "https://github.com/Kingpin-Apps/swift-package-compat-check/releases/download/0.8.0/spcc-0.8.0-macos-universal.tar.gz"
+  sha256 "f1fb268f224ed165b18aa2c0e60b6c57d8312442999477ff2c0c1a41168910db"
   license "MIT"
 
   depends_on macos: :sequoia
