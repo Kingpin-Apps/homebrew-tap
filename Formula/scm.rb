@@ -9,6 +9,7 @@ class Scm < Formula
 
   def install
     bin.install "scm"
+    generate_completions_from_executable(bin/"scm", "--generate-completion-script")
   end
 
   test do
