@@ -1,6 +1,6 @@
 cask "cardano-txworkshop" do
-  version "0.1.0"
-  sha256 "2e3e466cd0b58618db2863714083d3a74a3f606e744a9a9c70361b4b8627058b"
+  version "0.1.2"
+  sha256 "0c5652f3ae2a69b36baf83fcc44bfd84a965c71717d311fce8103c93feaa927b"
 
   url "https://github.com/Kingpin-Apps/swift-cardano-txworkshop/releases/download/v#{version}/CardanoTxWorkshop-#{version}.dmg"
   name "Cardano TxWorkshop"
@@ -9,8 +9,9 @@ cask "cardano-txworkshop" do
 
   # Sparkle updates it in place.
   auto_updates true
+  depends_on :macos
 
-  app "Cardano TxWorkshop Direct.app"
+  app "Cardano TxWorkshop.app"
 
   zap trash: [
     "~/Library/Application Support/com.kingpinapps.cardano-txworkshop",
