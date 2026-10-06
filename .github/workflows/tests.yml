@@ -39,7 +39,10 @@ jobs:
 
       - run: brew test-bot --only-setup
 
+      # The style check gives the same result everywhere, and on Intel it has
+      # to build shellcheck from source, whose downloads time out there.
       - run: brew test-bot --only-tap-syntax
+        if: matrix.os != 'macos-15-intel'
       - run: brew test-bot --only-formulae
         if: github.event_name == 'pull_request'
 
