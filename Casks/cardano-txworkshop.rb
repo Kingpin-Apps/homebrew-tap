@@ -1,9 +1,9 @@
 cask "cardano-txworkshop" do
-  version "0.2.1"
-  sha256 "d91b472fc8356d6901ed3f87aeed389c00144fcbc0d3fcac9759e41c8ac0fc76"
+  version "0.2.2"
+  sha256 "6ff5c7ee7dca0c463e32858453ef1992b7388c774877940834c8fbbd0ace6feb"
 
   url "https://github.com/Kingpin-Apps/swift-cardano-txworkshop/releases/download/v#{version}/CardanoTxWorkshop-#{version}.dmg"
-  name "Cardano TxWorkshop"
+  name "TxWorkshop"
   desc "Inspect, validate, build and sign Cardano transactions"
   homepage "https://github.com/Kingpin-Apps/swift-cardano-txworkshop"
 
@@ -11,7 +11,7 @@ cask "cardano-txworkshop" do
   auto_updates true
   depends_on :macos
 
-  app "Cardano TxWorkshop.app"
+  app "TxWorkshop.app"
 
   zap trash: [
     "~/Library/Application Support/com.kingpinapps.cardano-txworkshop",
