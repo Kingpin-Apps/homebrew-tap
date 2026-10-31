@@ -1,6 +1,6 @@
 cask "cardano-txworkshop" do
-  version "0.3.0"
-  sha256 "d82ef046444457c2984e6157b673cdeca8a12b891ec27deba2f2673c08683734"
+  version "0.4.0"
+  sha256 "b7d43361d9b21c222dbdb6005ad272115034d00f7dfd99e5f65a31a8bcba9900"
 
   url "https://github.com/Kingpin-Apps/swift-cardano-txworkshop/releases/download/v#{version}/CardanoTxWorkshop-#{version}.dmg"
   name "TxWorkshop"
