@@ -1,8 +1,8 @@
 class Scm < Formula
   desc "TUI for Cardano blockchain interactions"
   homepage "https://github.com/Kingpin-Apps/swift-cardano-multitool"
-  url "https://github.com/Kingpin-Apps/swift-cardano-multitool/releases/download/0.22.4/scm-0.22.4-macos-universal.tar.gz"
-  sha256 "893f9f0be70b94bcac20dc7cdcadaaffa04863f0e5c4dbaacb88710a53ea2030"
+  url "https://github.com/Kingpin-Apps/swift-cardano-multitool/releases/download/0.22.5/scm-0.22.5-macos-universal.tar.gz"
+  sha256 "edf428454e644f45221bf5e7bad343d0c73cdd16e7e1fcae4d248512297154ce"
   license "MIT"
 
   depends_on macos: :sequoia
